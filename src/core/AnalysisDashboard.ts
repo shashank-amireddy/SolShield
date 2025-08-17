@@ -340,7 +340,7 @@ export class AnalysisDashboard {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Security Analysis Dashboard</title>
+    <title>SolShield Security Analysis Dashboard</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
         .dashboard { max-width: 1200px; margin: 0 auto; }
@@ -366,7 +366,7 @@ export class AnalysisDashboard {
 </head>
 <body>
     <div class="dashboard">
-        <h1>🛡️ Security Analysis Dashboard</h1>
+        <h1>🛡️ SolShield Security Analysis Dashboard</h1>
         
         <div class="card">
             <h2>Overview</h2>

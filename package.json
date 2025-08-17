@@ -1,7 +1,7 @@
 {
-  "name": "solidity-vulnerability-scanner",
+  "name": "solshield",
   "version": "1.0.0",
-  "description": "A comprehensive security analysis platform for Solidity smart contracts",
+  "description": "SolShield - A comprehensive security analysis platform for Solidity smart contracts",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",

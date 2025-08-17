@@ -241,7 +241,7 @@ export class VulnerabilityReportAggregator implements ReportAggregator {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Solidity Security Analysis Report</title>
+    <title>SolShield Security Analysis Report</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         .summary { background: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 20px; }

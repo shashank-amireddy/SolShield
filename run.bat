@@ -1,0 +1,9 @@
+@echo off
+echo Installing dependencies...
+npm install
+
+echo Building SolShield...
+npm run build
+
+echo Running SolShield scanner...
+node dist/index.js %*

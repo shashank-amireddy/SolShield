@@ -17,8 +17,8 @@ import chalk from 'chalk';
 const program = new Command();
 
 program
-  .name('solidity-vulnerability-scanner')
-  .description('Comprehensive security analysis platform for Solidity smart contracts')
+  .name('solshield')
+  .description('SolShield - Comprehensive security analysis platform for Solidity smart contracts')
   .version('1.0.0');
 
 program
@@ -77,7 +77,7 @@ async function runScan(pathOrUrl: string, options: any): Promise<void> {
   const toolRegistry = ToolRegistry.getInstance();
   const dashboard = new AnalysisDashboard();
 
-  console.log(chalk.blue('🔍 Starting Solidity vulnerability scan...'));
+  console.log(chalk.blue('🛡️ Starting SolShield security analysis...'));
   console.log(chalk.gray(`Target: ${pathOrUrl}`));
   console.log(chalk.gray(`Output format: ${options.output}`));
 
