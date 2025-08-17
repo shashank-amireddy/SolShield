@@ -192,8 +192,8 @@ Formatted HTML report with:
         ┌─────────────────────┼─────────────────────┐
         │                     │                     │
 ┌───────▼───────┐  ┌──────────▼──────────┐  ┌───────▼───────┐
-│    Slither    │  │      Mythril       │  │  SmartCheck   │
-│ (Fast Static) │  │ (Symbolic Exec)    │  │ (Pattern-Based)│
+│    Slither    │  │      Mythril        │  │  SmartCheck   │
+│ (Fast Static) │  │ (Symbolic Exec)     │  │(Pattern-Based)│
 └───────────────┘  └─────────────────────┘  └───────────────┘
 ```
 
